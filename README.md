@@ -1,4 +1,4 @@
-<h1>NodeJs Inventory API</h1>
+<h1>GrapthQL API Inventory</h1>
 <h2>Brief:</h2>
 <p> This is a NodeJs API that uses GraphQL to query a Postgresql database. This API and database willbe hosted on Heroku using their free tier for now, later we will migate the DB and put it on the tier </p>
 
