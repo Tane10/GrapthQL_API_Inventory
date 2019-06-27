@@ -28,7 +28,7 @@ This will be queried using GraphQl for fast simple data gathering, allow fast AP
 <h3>Unit Testing:</h3>
 
 * [Mocah](https://mochajs.org/)
-* [Chai](https://www.chaijs.com/)]
+* [Chai](https://www.chaijs.com/)
 
 <h3>Performance Testing:</h3>
 
