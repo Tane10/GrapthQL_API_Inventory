@@ -98,4 +98,5 @@ mocha + webdriver.io + appium = good combo
 [Full Stack Testing with Node.js by Stacy Kirk, Quality Works](https://www.youtube.com/watch?v=i4Eu3Cczkek)
 
 [JavaScript — Unit Testing using Mocha and Chai](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
+[Node.js & JavaScript Testing Best Practices (2019)](https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347)
 
