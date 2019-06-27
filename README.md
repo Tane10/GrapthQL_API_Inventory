@@ -1,14 +1,14 @@
 <h1>GrapthQL API Inventory</h1>
 
 ## Table Of Contents:
-- [Brief](#Brief)
-- [API](#API)
-- [Testing Framework](#Testing-Framework)
-  - [Unit Testing](#Unit-Testing)
-  - [Performace Testing](#Performance-Testing)
-- [Little Notes](#Little-Notes)
-- [Useful Links](#Useful-Links)
-
+- [Brief](#Brief:)
+- [API](#API:)
+- [Testing Framework](#Testing-Framework:)
+  - [Unit Testing](#Unit-Testing:)
+  - [Performace Testing](#Performance-Testing:)
+  - [Testing Best Practices](#Testing-Best-Practices:)
+- [Little Notes](#Little-Notes:)
+- [Useful Links](#Useful-Links:)
 
 
 <h2>Brief:</h2>
@@ -22,15 +22,15 @@
 
 This will be queried using GraphQl for fast simple data gathering, allow fast API dev with minimal entry points making developement simpler. </p>
 
-<h2>Testing Framework: </h2>
+<h2>Testing Framework:</h2>
 <p> There is a large selection for testing frameworks that can be used but for testing the API we will be using:</p>
 
-<h3> Unit Testing: </h3>
+<h3>Unit Testing:</h3>
 
 * [Mocah](https://mochajs.org/)
 * [Chakram](http://dareid.github.io/chakram/)
 
-<h3> Performance Testing: </h3>
+<h3>Performance Testing:</h3>
 
 * [Artillery](https://artillery.io/)
 
@@ -48,7 +48,7 @@ Mocah is a javascript testing frameworking running on NodeJs and in browers, all
 <p>Artillery is a modern, powerful & easy-to-use load testing and functional testing toolkit. Use it to ship scalable backends, APIs & services that stay performant & resilient under high load.</p>
 
 
-<h2>Testing Best Practices </h2>
+<h2>Testing Best Practices:</h2>
 
 <h3>Page Object Model (POM):</h3>
 <h4>Whats a POM:</h4>
@@ -59,7 +59,7 @@ This Page class will find the WebElements of that web page and also contains Pag
 
 Name of these methods should be given as per the task they are performing, i.e., if a loader is waiting for the payment gateway to appear, POM method name can be waitForPaymentScreenDisplay().
 
-<h4>Advantages of POM </h4>
+<h4>Advantages of POM</h4>
 
 1. Page Object Pattern says operations and flows in the UI should be separated from verification. This concept makes our code cleaner and easy to understand.
 
@@ -73,7 +73,7 @@ Name of these methods should be given as per the task they are performing, i.e.,
 
 
 
-<h2> Little Notes: </h2>
+<h2>Little Notes:</h2>
 
 * Mocha + Chakram = a good combo and simple (Charkam allow you to create custom functions and can be Data-Driven) {good API tests}
 
@@ -89,7 +89,7 @@ mocha + webdriver.io + appium = good combo
 * make sure there is a dashboard showing the quailty of the product etc
 
 
-<h2>Useful Links </h2>
+<h2>Useful Links:</h2>
 
 [Page Object Model (POM) & Page Factory: Selenium WebDriver Tutorial](https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html)
 
