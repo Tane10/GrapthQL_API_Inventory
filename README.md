@@ -1,14 +1,14 @@
 <h1>GrapthQL API Inventory</h1>
 
 ## Table Of Contents:
-- [Brief](#Brief:)
-- [API](#API:)
-- [Testing Framework](#Testing-Framework:)
-  - [Unit Testing](#Unit-Testing:)
-  - [Performace Testing](#Performance-Testing:)
-  - [Testing Best Practices](#Testing-Best-Practices:)
-- [Little Notes](#Little-Notes:)
-- [Useful Links](#Useful-Links:)
+- [Brief](#Brief)
+- [API](#API)
+- [Testing Framework](#Testing-Framework)
+  - [Unit Testing](#Unit-Testing)
+  - [Performace Testing](#Performance-Testing)
+  - [Testing Best Practices](#Testing-Best-Practices)
+- [Little Notes](#Little-Notes)
+- [Useful Links](#Useful-Links)
 
 
 <h2>Brief:</h2>
