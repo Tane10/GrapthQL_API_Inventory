@@ -14,8 +14,8 @@ This will be queried using GraphQl for fast simple data gathering, allow fast AP
 
 <h3> Unit Testing: </h3>
 
-* Mocah 
-* chakram
+* [Mocah](https://mochajs.org/)
+* [Chakram](http://dareid.github.io/chakram/)
 
 <h3> Performance Testing: </h3>
 
@@ -23,43 +23,63 @@ This will be queried using GraphQl for fast simple data gathering, allow fast AP
 
 
 <h3>Mocah:</h3>
-Mocah is a javascript testing frameworking running on NodeJs and in browers, allowiung testing for Async functions easy.
+<p>
+Mocah is a javascript testing frameworking running on NodeJs and in browers, allowiung testing for Async functions easy.</p>
 
-[Mocah](https://mochajs.org/)
 
-<h3>chakram:</h3>
-Charkram is a REST API testing framework offerning BDD testing style and fully exploting promises.
+<h3>Chakram:</h3>
+<p>Charkram is a REST API testing framework offerning BDD testing style and fully exploting promises.</p>
 
-[Chakram](http://dareid.github.io/chakram/)
+
+<h3>Artillery:</h3>
+<p>Artillery is a modern, powerful & easy-to-use load testing and functional testing toolkit. Use it to ship scalable backends, APIs & services that stay performant & resilient under high load.</p>
 
 
 <h2>Testing Best Practices </h2>
 
+<h3>Page Object Model (POM):</h3>
+<h4>Whats a POM:</h4>
 
-Different Test framworks:
-Mocah, night watch, jasmine,karma phantomJS, Webdriver.io,Intern.io,qualitywatch.io
+<p>POM is a design pattern to create Object Repository for UI elements under this model, for each web page in the application, there should be corresponding page class. 
 
-Mocha + Chakram = a good combo and simple (Charkam allow you to create custom functions and can be Data-Driven) {good API tests}
+This Page class will find the WebElements of that web page and also contains Page methods which perform operations on those WebElements.
 
-You should split out tests into page object design patterns
+Name of these methods should be given as per the task they are performing, i.e., if a loader is waiting for the payment gateway to appear, POM method name can be waitForPaymentScreenDisplay().
 
-build the UI with automation in mind (name things with an actual name )
+<h4>Advantages of POM </h4>
 
-80 / 20 rule to test front end
+1. Page Object Pattern says operations and flows in the UI should be separated from verification. This concept makes our code cleaner and easy to understand.
 
-mobile testing:
+2. The Second benefit is the object repository is independent of test cases, so we can use the same object repository for a different purpose with different tools. For example, we can integrate POM with TestNG/JUnit for functional Testing and at the same time with JBehave/Cucumber for acceptance testing.
+
+3. Code becomes less and optimized because of the reusable page methods in the POM classes.
+
+4. Methods get more realistic names which can be easily mapped with the operation happening in UI. i.e. if after clicking on the button we land on the home page, the method name will be like 'gotoHomePage()'.
+</p>
+
+
+
+
+<h2> Little Notes: </h2>
+
+* Mocha + Chakram = a good combo and simple (Charkam allow you to create custom functions and can be Data-Driven) {good API tests}
+
+* You should split out tests into page object design patterns
+
+* build the UI with automation in mind (name things with an actual name )
+
+* 80 / 20 rule to test front end
+
+* mobile testing:
 mocha + webdriver.io + appium = good combo 
 
-perfomance testing:
-phantommas + QualityMeter 
+* make sure there is a dashboard showing the quailty of the product etc
 
 
-QualityWatcher gives good and fast testing breakdowns 
+<h2>Usefully Links </h2>
 
-make sure there is a dashboard showing the quailty of the product etc
+[Page Object Model (POM) & Page Factory: Selenium WebDriver Tutorial](https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html)
 
 
-
-links:
-https://www.youtube.com/watch?v=i4Eu3Cczkek
+[Full Stack Testing with Node.js by Stacy Kirk, Quality Works](https://www.youtube.com/watch?v=i4Eu3Cczkek)
 
