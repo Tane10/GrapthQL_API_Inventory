@@ -7,7 +7,7 @@
   - [Unit Testing](#Unit-Testing)
   - [Performace Testing](#Performance-Testing)
 - [Little Notes](#Little-Notes)
-- [Usefully Links](#Usefully-Links)
+- [Useful Links](#Useful-Links)
 
 
 
@@ -89,7 +89,7 @@ mocha + webdriver.io + appium = good combo
 * make sure there is a dashboard showing the quailty of the product etc
 
 
-<h2>Usefully Links </h2>
+<h2>Useful Links </h2>
 
 [Page Object Model (POM) & Page Factory: Selenium WebDriver Tutorial](https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html)
 
