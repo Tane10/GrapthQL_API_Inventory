@@ -28,7 +28,7 @@ This will be queried using GraphQl for fast simple data gathering, allow fast AP
 <h3>Unit Testing:</h3>
 
 * [Mocah](https://mochajs.org/)
-* [Chakram](http://dareid.github.io/chakram/)
+* [Chai(https://www.chaijs.com/)]
 
 <h3>Performance Testing:</h3>
 
@@ -40,8 +40,8 @@ This will be queried using GraphQl for fast simple data gathering, allow fast AP
 Mocah is a javascript testing frameworking running on NodeJs and in browers, allowiung testing for Async functions easy.</p>
 
 
-<h3>Chakram:</h3>
-<p>Charkram is a REST API testing framework offerning BDD testing style and fully exploting promises.</p>
+<h3>Chai:</h3>
+<p>Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.</p>
 
 
 <h3>Artillery:</h3>
@@ -75,7 +75,8 @@ Name of these methods should be given as per the task they are performing, i.e.,
 
 <h2>Little Notes:</h2>
 
-* Mocha + Chakram = a good combo and simple (Charkam allow you to create custom functions and can be Data-Driven) {good API tests}
+* Mocha + Chai = a good combo and simple 
+* Charkam was gonna used but active support has was stopped in 2018
 
 * You should split out tests into page object design patterns
 
@@ -95,4 +96,6 @@ mocha + webdriver.io + appium = good combo
 
 
 [Full Stack Testing with Node.js by Stacy Kirk, Quality Works](https://www.youtube.com/watch?v=i4Eu3Cczkek)
+
+[JavaScript — Unit Testing using Mocha and Chai](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
 
