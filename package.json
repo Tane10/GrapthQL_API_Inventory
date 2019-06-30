@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Tane10/GrapthQL_API_Inventory/issues"
   },
-  "homepage": "https://github.com/Tane10/GrapthQL_API_Inventory#readme"
+  "homepage": "https://github.com/Tane10/GrapthQL_API_Inventory#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.1.4"
+  }
 }
